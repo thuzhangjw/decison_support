@@ -29,16 +29,18 @@ def load_model(model_path, schema_path):
         ds_model['cnn_max_sentence_length'] = schema['max_words_num'] 
         ds_model['cnn_rnn_max_sentence_num'] = schema['max_sentences_num']
         ds_model['cnn_rnn_max_sentence_length'] = schema['max_words_num_per_sentence']
+        ds_model['probs'] = tf.nn.softmax(ds_model['scores']) 
+        
         sess.run(tf.tables_initializer())
     
     print('\033[1;33mdecision support model has loaded\033[0m')
     return sess, ds_model 
 
 
-def predict(sess, ds_model, texts, structure_data_df):
+def predict(sess, ds_model, texts, structure_data_df, jieba, stopwords):
     structure_encoded = esd.encoding(structure_data_df)
     pud.text_keyword_mapping(texts)
-    unstructure_df = pud.text_participle(texts)
+    unstructure_df = pud.text_participle(texts, jieba, stopwords, save_corups=False)
     
     x_cnn = dsm.get_text_for_cnn(unstructure_df['disease_his'])
     x_cnn_rnn = dsm.get_text_for_cnn_rnn(unstructure_df['disease_his'])
@@ -61,7 +63,7 @@ def predict(sess, ds_model, texts, structure_data_df):
             ds_model['dropout_keep_prob']: 1.0
             }
 
-    scores = sess.run(ds_model['scores'], feed_dict) 
-    probs = sess.run(tf.nn.softmax(scores))
+    #scores = sess.run(ds_model['scores'], feed_dict) 
+    probs = sess.run(ds_model['probs'], feed_dict)
     return probs
 

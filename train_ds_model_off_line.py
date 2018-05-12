@@ -14,8 +14,10 @@ print('\033[1;33mencode structure data\033[0m')
 structure_df = dse.encoding(df)
 
 print('\033[1;33mprocess unstructure data\033[0m')
+jieba = dsc.get_jieba()
+stopwords = dsc.get_stopwords()
 dsp.text_keyword_mapping(df[dsc.CMH_NAME])
-unstructure_df = dsp.text_participle(df[dsc.CMH_NAME])
+unstructure_df = dsp.text_participle(df[dsc.CMH_NAME], jieba, stopwords)
 word2vec_model = dsp.word2vec('./ds/word2vec.model')
 
 print('\033[1;33mgenerate model schema\033[0m')

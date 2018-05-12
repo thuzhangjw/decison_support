@@ -1,4 +1,3 @@
-import jieba
 import pandas as pd
 import re
 import gensim
@@ -24,17 +23,19 @@ def text_keyword_mapping(series):
         series[i] = repl(series[i])
 
 
-def text_participle(series):
-    jieba.load_userdict('./ds/my_dict_from_other_source.txt')
-    jieba.load_userdict('./ds/mydict.txt')
-    rs = [re.compile('[(（][^(（]*[)）]'), re.compile('患者自发病以来.*。')]
-    stopwords = set()
-    neg_words=['无']
+def text_participle(series, jieba, stopwords, save_corups=True):
     
-    with open('./ds/stopword-full.dic', 'r') as f:
-        lines = f.readlines()
-        for word in lines:
-            stopwords.add(word.strip())
+    rs = [re.compile('[(（][^(（]*[)）]'), re.compile('患者自发病以来.*。')]
+    #stopwords = set()
+    neg_words=['无']
+
+    #jieba.load_userdict('./ds/my_dict_from_other_source.txt')
+    #jieba.load_userdict('./ds/mydict.txt')
+       
+    #with open('./ds/stopword-full.dic', 'r') as f:
+    #    lines = f.readlines()
+    #    for word in lines:
+    #        stopwords.add(word.strip())
 
 
     def load_suggest_freq():
@@ -63,7 +64,7 @@ def text_participle(series):
         return res 
 
 
-    load_suggest_freq()
+    #load_suggest_freq()
     sentence_list = []
     word_list_list = []
     for text in series:
@@ -87,10 +88,11 @@ def text_participle(series):
         sentence_list.append(newdoc)
     
     disease_his_df = pd.DataFrame({'disease_his': sentence_list})
-    print(' save words corups')
-    with open('./ds/corups.txt', 'w') as f:
-        for s in word_list_list:
-            f.write(s + '\n')
+    if save_corups:
+        print(' save words corups')
+        with open('./ds/corups.txt', 'w') as f:
+            for s in word_list_list:
+                f.write(s + '\n')
     
     return disease_his_df  
 

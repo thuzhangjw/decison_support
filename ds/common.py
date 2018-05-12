@@ -2,6 +2,7 @@ import pandas as pd
 import pinyin
 import json
 from collections import OrderedDict 
+import os
 
 
 CLASSES = ['不稳定型心绞痛', '冠状动脉粥样硬化', '房颤', '急性心肌梗死', '非ST段抬高型心肌梗死']
@@ -95,4 +96,30 @@ def generate_schema():
         features.append(feature)
     schema['features'] = features
     return schema 
+
+
+def get_jieba():
+    import jieba 
+    
+    jieba.load_userdict('./ds/my_dict_from_other_source.txt')
+    jieba.load_userdict('./ds/mydict.txt')
+    if os.path.exists('./ds/suggest_freq.txt'):
+        f = open('./ds/suggest_freq.txt', 'r')
+        lines = f.readlines()
+        for line in lines:
+            words = line.split(' ')
+            jieba.suggest_freq((words[0], words[1]), True)
+        f.close()
+    return jieba 
+
+
+def get_stopwords():
+    stopwords = set()
+    with open('./ds/stopword-full.dic', 'r') as f:
+        lines = f.readlines()
+        for word in lines:
+            stopwords.add(word.strip())
+
+    return stopwords 
+
 
