@@ -1,0 +1,6 @@
+model_checkpoint_path: "RelationCNN764292334413223820_fold_0_step_700"
+all_model_checkpoint_paths: "RelationCNN764292334413223820_fold_0_step_300"
+all_model_checkpoint_paths: "RelationCNN764292334413223820_fold_0_step_400"
+all_model_checkpoint_paths: "RelationCNN764292334413223820_fold_0_step_500"
+all_model_checkpoint_paths: "RelationCNN764292334413223820_fold_0_step_600"
+all_model_checkpoint_paths: "RelationCNN764292334413223820_fold_0_step_700"

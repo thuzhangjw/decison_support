@@ -26,8 +26,8 @@ schema = dsc.generate_schema()
 print('\033[1;33mtrain model\033[0m')
 newdf = pd.concat([df[dsc.LABEL_NAME], unstructure_df, structure_df], axis=1)
 model_name = dsc.DS_MODEL_NAME 
-model_dir = dsc.MODEL_DIR
-max_words_num, max_sentences_num, max_words_num_per_sentence = dsd.train(newdf, model_name, word2vec_model, model_dir, epochs=2)
+model_dir = '/models'
+max_words_num, max_sentences_num, max_words_num_per_sentence = dsd.train(newdf, model_name, word2vec_model, model_dir)
 
 schema['max_words_num'] = max_words_num
 schema['max_sentences_num'] = max_sentences_num 

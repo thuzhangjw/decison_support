@@ -77,7 +77,7 @@ LABEL_NAME = 'GB/T-codename'
 CMH_NAME = '现病史'
 
 def generate_schema():
-    schema = {'label': CLASSES}
+    schema = {'labels': CLASSES}
     features = [{'col_name': CMH_NAME, 'col_type': 'string'}]
     for key in DATA_PARTITION_TABLE:
         val = DATA_PARTITION_TABLE[key]

@@ -1,0 +1,11 @@
+{
+  "Out": 1,
+  "testresult": 2,
+  "test": 3,
+  "treatment": 4,
+  "<pad>": 5,
+  "diseasetype": 6,
+  "complaintsymptom": 7,
+  "disease": 8,
+  "Unknown": 0
+}

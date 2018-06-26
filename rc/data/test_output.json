@@ -1,0 +1,484 @@
+{
+  "result": [
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u653e\u6563",
+            "from_class_id": 7,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "complaintsymptom"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u785d\u9178\u7518\u6cb9",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u652f\u67b6",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u7403\u56ca\u6269\u5f20\u672f",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u62dc\u963f\u53f8\u5339\u6797",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u6ce2\u529b\u7ef4",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u785d\u9178\u7518\u6cb9",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u95f7\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u652f\u67b6",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u95f7\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u7403\u56ca\u6269\u5f20\u672f",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u95f7\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u62dc\u963f\u53f8\u5339\u6797",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u95f7\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u6ce2\u529b\u7ef4",
+            "from_class_id": 4,
+            "to_class_id": 7,
+            "to_class_entity": "complaintsymptom",
+            "to_class_name": "\u95f7\u75db",
+            "context_sentence": "\u60a3\u8005\u60a3\u8005\u7f18\u4e8e8\u5e74\u524d\uff0c\u65e0\u660e\u663e\u8bf1\u56e0\u51fa\u73b0\u9635\u53d1\u6027\u80f8\u9aa8\u540e\u75bc\u75db\uff0c\u4e3a\u95f7\u75db\uff0c\u65e0\u653e\u6563\uff0c\u6bcf\u6b21\u6301\u7eed20-30\u5206\u949f\uff0c\u542b\u670d\u785d\u9178\u7518\u6cb95-6\u5206\u949f\u53ef\u7f13\u89e3\uff0c\u6bcf\u5929\u53d1\u4f5c2-3\u6b21\u591a\u6b21\u4f4f\u9662\u6cbb\u7597\uff0c\u4e8e2006-2-28\u5de6\u56de\u65cb\u652f\u7f6e\u5165\u652f\u67b61\u679a\uff08Cypher SELECT\uff09\uff0c\u7b2c\u4e00\u5bf9\u89d2\u652f\u884c\u7403\u56ca\u6269\u5f20\u672f\uff0c\u672f\u540e\u672f\u540e\u53e3\u670d\u201c\u62dc\u963f\u53f8\u5339\u6797\uff0c\u6ce2\u529b\u7ef4\u201d\u6297\u8840\u5c0f\u677f\u6cbb\u7597\uff0c2\u6708\u540e\u81ea\u884c\u505c\u836f\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 3,
+        "relation_name": "TrAS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u652f\u67b6\u672f",
+            "from_class_id": 4,
+            "to_class_id": 3,
+            "to_class_entity": "test",
+            "to_class_name": "\u51a0\u72b6\u52a8\u8109\u9020\u5f71",
+            "context_sentence": "2009\u5e747\u6708\u51a0\u72b6\u52a8\u8109\u9020\u5f71\u793a\uff1a\u524d\u964d\u652f\u53ca\u7b2c\u4e00\u5bf9\u89d2\u652f\u652f\u67b6\u672f\u540e\uff0c\u652f\u67b6\u5185\u5185\u819c\u8f7b\u5ea6\u589e\u751f\uff0c\u524d\u964d\u652f\u7ba1\u58c1\u4e0d\u89c4\u5219\uff0c\u8fdc\u6bb5\u72ed\u7a8490%\u3002",
+            "from_class_name": "treatment"
+          }
+        ],
+        "relation_id": 2,
+        "relation_name": "TeRS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u5185\u819c\u8f7b\u5ea6\u589e\u751f",
+            "from_class_id": 2,
+            "to_class_id": 3,
+            "to_class_entity": "test",
+            "to_class_name": "\u51a0\u72b6\u52a8\u8109\u9020\u5f71",
+            "context_sentence": "2009\u5e747\u6708\u51a0\u72b6\u52a8\u8109\u9020\u5f71\u793a\uff1a\u524d\u964d\u652f\u53ca\u7b2c\u4e00\u5bf9\u89d2\u652f\u652f\u67b6\u672f\u540e\uff0c\u652f\u67b6\u5185\u5185\u819c\u8f7b\u5ea6\u589e\u751f\uff0c\u524d\u964d\u652f\u7ba1\u58c1\u4e0d\u89c4\u5219\uff0c\u8fdc\u6bb5\u72ed\u7a8490%\u3002",
+            "from_class_name": "testresult"
+          }
+        ],
+        "relation_id": 2,
+        "relation_name": "TeRS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u652f\u7ba1\u58c1\u4e0d\u89c4\u5219",
+            "from_class_id": 2,
+            "to_class_id": 3,
+            "to_class_entity": "test",
+            "to_class_name": "\u51a0\u72b6\u52a8\u8109\u9020\u5f71",
+            "context_sentence": "2009\u5e747\u6708\u51a0\u72b6\u52a8\u8109\u9020\u5f71\u793a\uff1a\u524d\u964d\u652f\u53ca\u7b2c\u4e00\u5bf9\u89d2\u652f\u652f\u67b6\u672f\u540e\uff0c\u652f\u67b6\u5185\u5185\u819c\u8f7b\u5ea6\u589e\u751f\uff0c\u524d\u964d\u652f\u7ba1\u58c1\u4e0d\u89c4\u5219\uff0c\u8fdc\u6bb5\u72ed\u7a8490%\u3002",
+            "from_class_name": "testresult"
+          }
+        ],
+        "relation_id": 2,
+        "relation_name": "TeRS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "relation_info": [
+          {
+            "from_class_entity": "\u8fdc\u6bb5\u72ed\u7a84",
+            "from_class_id": 2,
+            "to_class_id": 3,
+            "to_class_entity": "test",
+            "to_class_name": "\u51a0\u72b6\u52a8\u8109\u9020\u5f71",
+            "context_sentence": "2009\u5e747\u6708\u51a0\u72b6\u52a8\u8109\u9020\u5f71\u793a\uff1a\u524d\u964d\u652f\u53ca\u7b2c\u4e00\u5bf9\u89d2\u652f\u652f\u67b6\u672f\u540e\uff0c\u652f\u67b6\u5185\u5185\u819c\u8f7b\u5ea6\u589e\u751f\uff0c\u524d\u964d\u652f\u7ba1\u58c1\u4e0d\u89c4\u5219\uff0c\u8fdc\u6bb5\u72ed\u7a8490%\u3002",
+            "from_class_name": "testresult"
+          }
+        ],
+        "relation_id": 2,
+        "relation_name": "TeRS"
+      },
+      "status_code": 200
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    },
+    {
+      "statue_data": {
+        "statue": "no_relationnType"
+      },
+      "status_code": 400
+    }
+  ]
+}

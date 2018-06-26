@@ -1,0 +1,22 @@
+{
+  "model_name_suffix": "",
+  "train_data_file": "data/train_sample.data",
+  "fixed_word_embedding_flag": false,
+  "fixed_word_vector_dim": 50,
+  "fixed_word_embedding_file": "data/word2vec/anzhen50.vector",
+  "random_word_vector_dim": 50,
+  "record_number": -1,
+  "num_epoch": 500,
+  "batch_size": 128,
+  "learning_rate": 1e-3,
+  "num_fold": 5,
+  "filter_sizes": [2,3,5],
+  "num_filters": 30,
+  "l2_reg_lambda": 0.0,
+  "word_dim": 50,
+  "pos_dim": 5,
+  "dist1_dim": 5,
+  "dist2_dim": 5,
+  "type_dim": 5,
+  "drop_out_prob": 0.5
+}

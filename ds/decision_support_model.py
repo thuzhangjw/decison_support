@@ -152,7 +152,7 @@ def batch_iter(x_cnn, x_ncnn, x_cnn_rnn, y, batch_size, epochs, cnn_max_sentence
     return shuffle_and_batch(data, batch_size, epochs, shuffle)
 
 
-def train(df, model_name, word2vec_model, model_save_dir, batch_size=200, epochs=150, cnn_filter_sizes=[2,3,4,5], cnn_num_filters=100, cnn_l2_reg_lambda=0.5, rnn_hidden_dim=300, rnn_l2_reg_lambda=0.25, ncnn_filter_sizes=[2,3,4,5,7,8,11,13,19,23,25], ncnn_num_filters=50, ncnn_l2_reg_lambda=0.2, whole_l2_reg_lambda=0.1, rnn_dropout_keep_prob=0.6, whole_dropout_keep_prob=0.4):
+def train(df, model_name, word2vec_model, model_save_dir, batch_size=300, epochs=100, cnn_filter_sizes=[2,3,4,5], cnn_num_filters=100, cnn_l2_reg_lambda=0.5, rnn_hidden_dim=300, rnn_l2_reg_lambda=0.25, ncnn_filter_sizes=[2,3,4,5,7,8,11,13,19,23,25], ncnn_num_filters=50, ncnn_l2_reg_lambda=0.2, whole_l2_reg_lambda=0.1, rnn_dropout_keep_prob=0.6, whole_dropout_keep_prob=0.4):
     
     train_df, test_df = split_train_test_set(df)
 
@@ -307,7 +307,6 @@ def train(df, model_name, word2vec_model, model_save_dir, batch_size=200, epochs
                     print("{}: step {}, loss {:g}, acc {:g}".format(time_str, f_step, f_loss, f_accuracy))
                     if not save_model:
                         current_step = tf.train.global_step(sess, global_step)
-                        print(current_step)
                         if current_step % 50 == 0:
                             test_accuracy = test(test_batches)
                             if test_accuracy > max_accuracy:
